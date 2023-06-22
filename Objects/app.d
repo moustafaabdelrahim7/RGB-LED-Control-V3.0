@@ -1,0 +1,15 @@
+.\objects\app.o: app.c
+.\objects\app.o: app.h
+.\objects\app.o: button.h
+.\objects\app.o: services.h
+.\objects\app.o: port.h
+.\objects\app.o: port_lcfg.h
+.\objects\app.o: services.h
+.\objects\app.o: led.h
+.\objects\app.o: services.h
+.\objects\app.o: port.h
+.\objects\app.o: services.h
+.\objects\app.o: sys_tick.h
+.\objects\app.o: services.h
+.\objects\app.o: mcu_hw.h
+.\objects\app.o: services.h

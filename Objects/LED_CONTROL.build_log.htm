@@ -1,0 +1,94 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.29.0.0
+Copyright (C) 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: moustafa abdelrahim, x, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.29.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.29.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      lmidk-agdi.dll V???
+Dialog DLL:      TCM.DLL V1.36.5.0
+ 
+<h2>Project:</h2>
+C:\Users\Genius\Desktop\clones\RGB-LED-Control-V2.0\LED_CONTROL.uvprojx
+Project File Date:  06/15/2023
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'Target 1'
+compiling main.c...
+services.h(39): warning:  #1-D: last line of file ends without a newline
+  		
+services.h(39): warning:  #1-D: last line of file ends without a newline
+  		
+port.h(17): warning:  #1-D: last line of file ends without a newline
+  uint8_t GPIO_READ_PIN	(enu_port_num_t enu_port_num,enu_port_pin_num_t enu_port_pin_num);
+button.h(7): warning:  #1-D: last line of file ends without a newline
+  void BUTTON_INIT(const str_port_config_t*str_port_configPTR);
+services.h(39): warning:  #1-D: last line of file ends without a newline
+  		
+services.h(39): warning:  #1-D: last line of file ends without a newline
+  		
+port.h(17): warning:  #1-D: last line of file ends without a newline
+  uint8_t GPIO_READ_PIN	(enu_port_num_t enu_port_num,enu_port_pin_num_t enu_port_pin_num);
+services.h(39): warning:  #1-D: last line of file ends without a newline
+  		
+services.h(39): warning:  #1-D: last line of file ends without a newline
+  		
+mcu_hw.h(51): warning:  #1-D: last line of file ends without a newline
+  #define COUNT			16
+sys_tick.h(30): warning:  #1-D: last line of file ends without a newline
+  void SYS_TICK_Disable(void);
+led.h(8): warning:  #1-D: last line of file ends without a newline
+  void LED_TOGGEL(enu_port_num_t enu_port_num,enu_port_pin_num_t enu_port_pin_num);
+app.h(6): warning:  #1-D: last line of file ends without a newline
+  void Task_Handler(void);
+main.c(14): warning:  #1-D: last line of file ends without a newline
+  }
+main.c: 14 warnings, 0 errors
+linking...
+Program Size: Code=3702 RO-data=686 RW-data=8 ZI-data=608  
+".\Objects\LED_CONTROL.axf" - 0 Error(s), 14 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.6.0.pack
+                ARM.CMSIS.5.6.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.3.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.TM4C_DFP.1.1.0.pack
+                Keil.TM4C_DFP.1.1.0
+                Texas Instruments Tiva C Series Device Support and Examples
+   * Component: Startup Version: 1.0.1
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Target_1
+  C:\Users\Genius\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include
+  C:\Users\Genius\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.3.0
+
+   * Component: Keil::Device:Startup:1.0.1
+      Source file:   Device\Source\system_TM4C123.c
+      Include file:  Device\Include\TM4C123\TM4C123.h
+      Source file:   Device\Source\ARM\startup_TM4C123.s
+Build Time Elapsed:  00:00:00
+</pre>
+</body>
+</html>
