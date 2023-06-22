@@ -1,7 +1,0 @@
-#include "port_lcfg.h"
-
-const str_port_config_t	str_port_config_arr[2]=
-{
-		{PORT_PIN_DEN,PIN_LOW,PIN_OUTPUT,PIN_PUR,PIN_CUR_8MA,PORT_F,PORT_PIN_3,PIN_NO_INTERRUPT},//RED 
-		{PORT_PIN_DEN,PIN_HIGH,PIN_INPUT,PIN_PUR,PIN_CUR_8MA,PORT_F,PORT_PIN_4,PIN_NO_INTERRUPT}
-};
